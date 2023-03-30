@@ -1,0 +1,35 @@
+Run the previous program by copying a .java file and pasting it to same named .clas file
+
+Only one arg will be passed with ext .java
+
+Save the entire content of the file in another file with the same name and ext .clas
+
+java FileCopy aa.java
+
+Output: aa.clas
+
+Que2.
+
+Write a Java program to prompt a user to input his/her name and then the output be shown as an example below:
+
+Hello <Name>! 
+
+Append the Content + Login time(System time when the Name was entered) to a file: Name_Collection.txt
+
+Hint:Second parameter in FileWriter is to be true to append.
+
+FileWriter fileWritter = new FileWriter(data,true);
+
+
+
+Eg:
+
+Run1: Hello Monica!
+
+Run2: Hello Ishu!
+
+Name_Collection.txt
+
+Monica  Login time: 11:47 AM 25-08-2018
+
+Ishu  Login time: 11:49 AM 25-08-2018
